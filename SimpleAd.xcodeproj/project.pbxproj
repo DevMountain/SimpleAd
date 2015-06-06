@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6817E7311AB9EF06005D94E0 /* SAInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6817E7301AB9EF06005D94E0 /* SAInterstitialViewController.m */; };
+		6817E7331AB9F0A3005D94E0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6817E7321AB9F0A3005D94E0 /* iAd.framework */; };
 		71A5A88419635BB100B40A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88319635BB100B40A5C /* Foundation.framework */; };
 		71A5A88619635BB100B40A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88519635BB100B40A5C /* CoreGraphics.framework */; };
 		71A5A88819635BB100B40A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5A88719635BB100B40A5C /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6817E72F1AB9EF06005D94E0 /* SAInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAInterstitialViewController.h; sourceTree = "<group>"; };
+		6817E7301AB9EF06005D94E0 /* SAInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAInterstitialViewController.m; sourceTree = "<group>"; };
+		6817E7321AB9F0A3005D94E0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		71A5A88019635BB100B40A5C /* SimpleAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A5A88319635BB100B40A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71A5A88519635BB100B40A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6817E7331AB9F0A3005D94E0 /* iAd.framework in Frameworks */,
 				71A5A88619635BB100B40A5C /* CoreGraphics.framework in Frameworks */,
 				71A5A88819635BB100B40A5C /* UIKit.framework in Frameworks */,
 				71A5A88419635BB100B40A5C /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		71A5A88219635BB100B40A5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6817E7321AB9F0A3005D94E0 /* iAd.framework */,
 				71A5A88319635BB100B40A5C /* Foundation.framework */,
 				71A5A88519635BB100B40A5C /* CoreGraphics.framework */,
 				71A5A88719635BB100B40A5C /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				71A5A89519635BB100B40A5C /* Main.storyboard */,
 				71A5A89819635BB100B40A5C /* SAViewController.h */,
 				71A5A89919635BB100B40A5C /* SAViewController.m */,
+				6817E72F1AB9EF06005D94E0 /* SAInterstitialViewController.h */,
+				6817E7301AB9EF06005D94E0 /* SAInterstitialViewController.m */,
 				71A5A89B19635BB100B40A5C /* Images.xcassets */,
 				71A5A88A19635BB100B40A5C /* Supporting Files */,
 			);
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6817E7311AB9EF06005D94E0 /* SAInterstitialViewController.m in Sources */,
 				71A5A89419635BB100B40A5C /* SAAppDelegate.m in Sources */,
 				71A5A89A19635BB100B40A5C /* SAViewController.m in Sources */,
 				71A5A89019635BB100B40A5C /* main.m in Sources */,
@@ -457,6 +467,7 @@
 				71A5A8B419635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A5A8B519635BB100B40A5C /* Build configuration list for PBXNativeTarget "SimpleAdTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				71A5A8B719635BB100B40A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
